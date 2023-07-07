@@ -142,16 +142,12 @@
 }
 
 
-/* .main-ventas {
-    background-color: #a04d4d;
-    display: flex 
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-} */
+.main-ventas {
+    background-color: #a09c4d;
+}
 .card {
     background-color: #d8101088;
-    max-width: 400px;
+    max-width: 300px;
     }
 
 .card-text {
@@ -160,6 +156,9 @@
 }
 
 .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     background-color: #e4916e;
     color: black;
