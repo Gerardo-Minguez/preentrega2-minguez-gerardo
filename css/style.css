@@ -122,7 +122,7 @@
     color: rgb(15, 15, 15)
 }
 
-/* 2- ventas.html */
+/* 2- ventas.html (su usó mucho GIT)*/
 
 .main-ventas h1 {
     font-family: 'Josefin Sans', sans-serif;
@@ -132,13 +132,18 @@
     text-decoration: underline black;
 }
 
-.main-ventas {
+.englobado-tarjetas{
+    display: flex;
+}
+
+
+/* .main-ventas {
     background-color: #a04d4d;
     display: flex 
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-}
+} */
 .card {
     background-color: #d8101088;
     max-width: 400px;
@@ -151,7 +156,7 @@
 
 .btn {
     text-align: center;
-    background-color: rgb(232, 90, 30);
+    background-color: #e4916e;
     color: black;
 }
 
