@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shorcut icon" href="../recursos/logo transparente.png">
     <link rel="stylesheet" href="../css/style.css">
     <title>CONTACTO</title>
@@ -48,8 +49,28 @@
         <br>
         <br>
         <h1>CONTACTO</h1>
-        <form class="formulario" action="#" method="get" enctype="text/plain">
-            <!-- input es sobre qué va a ser el formulario -->
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">NOMBRE</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">TELEFONO</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca vamos a compartir tu tel. con nadie mas.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">CONSULTA</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
+          </form>
+        <!-- <form class="formulario" action="#" method="get" enctype="text/plain">
             <br>
             <br>
             <input type="text" placeholder="Nombre" name="nombre">
@@ -67,7 +88,7 @@
             <input type="submit" placeholder="enviar" name="enviar">
             <br>
             <br>
-        </form>
+        </form> -->
     </main>
 
     <footer class="footer">
@@ -78,9 +99,11 @@
         </ul>
         <p>Copyright ©️ 2023 MILOP SAS - CUIT 30-71677278-7</p>
         <p>Desarrollo Web creado por Gerardo Minguez</p>
-    
+
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

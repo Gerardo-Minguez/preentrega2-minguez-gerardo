@@ -1,0 +1,29 @@
+[33mcommit b2e0304f6f926ba1ad505092980483d28a1b8366[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: gerardo minguez <minguezgerardo@gmail.com>
+Date:   Fri Jul 7 14:22:13 2023 -0300
+
+    se agregó display flex a todos los botones as{i quedaban centrados en la tarjeta
+
+[33mcommit e4b1786b5dcbbdbd6591a65d7db667d29d0397b0[m
+Author: gerardo minguez <minguezgerardo@gmail.com>
+Date:   Fri Jul 7 14:08:43 2023 -0300
+
+    se agregó margin y padding a las tarjetas
+
+[33mcommit 8b5a24447f9d0b78c0271411e0ae6c948afcac59[m
+Author: gerardo minguez <minguezgerardo@gmail.com>
+Date:   Fri Jul 7 14:02:51 2023 -0300
+
+    se cambio la section por un div de nombre englobado-tarjetas
+
+[33mcommit 99412ae4658c88df415c5b45849af27e5ae6be64[m
+Author: gerardo minguez <minguezgerardo@gmail.com>
+Date:   Fri Jul 7 13:51:18 2023 -0300
+
+    encerré en una section a todas las tarjetas
+
+[33mcommit bfe08e9adb927c9000b98d8fbdd0e57e945275b7[m
+Author: gerardo minguez <minguezgerardo@gmail.com>
+Date:   Fri Jul 7 13:46:41 2023 -0300
+
+    agregue 4 tarjetas en ventas y les cambie las clases
