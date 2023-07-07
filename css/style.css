@@ -134,6 +134,11 @@
 
 .englobado-tarjetas{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 30px;
+    padding: 20px;
 }
 
 
