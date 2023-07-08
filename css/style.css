@@ -132,7 +132,7 @@
     text-decoration: underline black;
 }
 
-.englobado-tarjetas{
+.englobado-tarjetas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -145,10 +145,11 @@
 .main-ventas {
     background-color: #a09c4d;
 }
+
 .card {
     background-color: #d8101088;
     max-width: 300px;
-    }
+}
 
 .card-text {
     background-color: #a04d4d;
@@ -214,16 +215,12 @@
     border-bottom-left-radius: 3px white;
 }
 
-/* 4-contacto.html */
+/* 4-contacto.html - se agregó un formulario con bootstrap y se le dio estilo*/
 
 .main-contacto {
     background-color: #986363;
-    box-shadow: 3px;
     box-shadow: 3px #986363;
-    /* width: 100px; */
     height: 450px;
-
-
 }
 
 .main-contacto h1 {
@@ -234,23 +231,24 @@
     text-decoration: underline black;
 }
 
-.main-contacto form {
+
+/* .main-contacto form {
     box-shadow: 3px black;
     background-color: #986363;
     text-align: left;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
-.formulario {
+/* .formulario {
     box-shadow: 3px black;
     background-color: f4f4f4 box-shadow: 0px 5px 5px;
     text-align: left;
     background-image: url("../recursos/pie-recortado4.jpg");
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 
 /* 5-alquileres.html */
