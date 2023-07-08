@@ -92,7 +92,7 @@
 .PARRAFO {
     grid-area: PARRAFO;
     color: aliceblue;
-    background-color:#a09c4d;
+    background-color: #a09c4d;
     font-family: 'Josefin Sans', sans-serif;
     font-size: x-large;
     text-align: center;
@@ -183,7 +183,7 @@
     gap: 30px 30px;
     grid-auto-flow: row;
     background-color: white;
-  
+
 }
 
 .administracion {
@@ -207,7 +207,7 @@
     background-color: #a09c4d;
     text-align: center;
     margin: 40px;
- }
+}
 
 .main-otros-servicios p {
     margin: 20px;
@@ -219,6 +219,7 @@
     overflow: auto;
     align-items: center;
 }
+
 /* .parrafo-administracion {
     margin: 30px;
  
@@ -240,21 +241,22 @@
     box-shadow: 3px #986363;
     height: 450px;
 }
-.btn-send{
+
+.btn-send {
     margin: 20px;
 }
 
 .div-formulario {
-  text-align: center;
-  
-  
+    text-align: center;
+
+
     /* background-image: url("../recursos/pie-recortado4.jpg");
     background-repeat: no-repeat;
     background-position: center; */
 }
 
 
-/* 5-alquileres.html - solamente se usó html (y flex) y css para estilo*/
+/* 5-alquileres.html - solamente se usó html (y flex) y css para estilo - pseudoclase hover*/
 
 .main-alquileres {
     background-color: white;
@@ -294,11 +296,22 @@
 .main-alquileres li {
     text-align: center;
 }
+
 /* se usó la pseudo clase hover */
 
-.main-alquileres input:hover{
-font-weight: bold;
-text-decoration: underline; color: ;
-background-color: #a09c4d;
+.main-alquileres input:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #a09c4d;
+}
+
+/* media Queris - se aplicó a alquileres.html*/
+
+@media (max-width:576px) {
+
+    .main-alquileres ul {
+        height: 50%;
+        width: 500px;
+    }
 
 }
