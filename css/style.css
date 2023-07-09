@@ -61,7 +61,7 @@
 
 /* MAIN CON GRID */
 
-.div-principal {
+.section-principal {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -77,6 +77,7 @@
 
 .IMAGEN {
     grid-area: IMAGEN;
+    width: 100%;
 }
 
 .H1 {
@@ -237,7 +238,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-start;
-    background-color: white;
+    background-color:#a09c4d;
     box-shadow: 3px #986363;
     height: 450px;
 }
@@ -248,12 +249,10 @@
 
 .div-formulario {
     text-align: center;
+        }
 
 
-    /* background-image: url("../recursos/pie-recortado4.jpg");
-    background-repeat: no-repeat;
-    background-position: center; */
-}
+
 
 
 /* 5-alquileres.html - solamente se usó html (y flex) y css para estilo - pseudoclase hover*/
@@ -305,7 +304,7 @@
     background-color: #a09c4d;
 }
 
-/* media Queris - se aplicó a alquileres.html*/
+/* media Queris - se aplicó a todo el main de alquileres.html*/
 
 @media (max-width:576px) {
 
