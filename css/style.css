@@ -1,3 +1,5 @@
+/* Se trabajo mobile-last */
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&display=swap');
 
@@ -7,8 +9,8 @@
     font-family: sans-serif;
 }
 
-/* 1-INDEX.HTML */
 /* usar el header y footer para todos los html */
+/* 1-INDEX.HTML */
 /* HEADER CON BOOTSTRAP */
 
 .header {
@@ -53,54 +55,50 @@
 
 /* 1- INDEX.html*/
 
-.header a {
+/* .header a {
     color: rgb(15, 15, 15);
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-}
+} */
 
 /* MAIN CON GRID */
 
-.section-principal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-auto-rows: 1fr;
-    align-items: end;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+.grilla-index {  display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-flow: row;
     grid-template-areas:
-        "IMAGEN H1"
-        "IMAGEN PARRAFO";
-    max-width: 100%;
-}
+      "nosotros-index imagen-index"
+      "nosotros-index imagen-index"
+      "nosotros-index imagen-index";
+      width: 100vw;
+      margin: auto;
+  }
+  
+  .imagen-index { grid-area: imagen-index; }
+  
+  .nosotros-index { grid-area: nosotros-index; }
 
-.IMAGEN {
-    grid-area: IMAGEN;
-    width: 100%;
-}
-
-.H1 {
-    grid-area: H1;
+  .h1-index {
     padding: 40px;
     background-color: #a09c4d;
     color: aliceblue;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family:'Belanosima', sans-serif;
     text-align: center;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
-.PARRAFO {
-    grid-area: PARRAFO;
+.parrafo-index {
     color: aliceblue;
     background-color: #a09c4d;
     font-family: 'Josefin Sans', sans-serif;
     font-size: x-large;
     text-align: center;
-}
+    } 
 
 .main {
-    background-color: rgb(160, 77, 77);
+    background-color: #a09c4d;
 }
 
 /* FOOTER CON FLEX */
@@ -312,5 +310,8 @@
         height: 50%;
         width: 500px;
     }
+
+/* aplico media queris a index.html */
+
 
 }
