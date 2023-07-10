@@ -193,11 +193,17 @@
     background-color: white;
 }
 
-/* .administracion { grid-area: administracion; }
-  
-  .tasaciones { grid-area: tasaciones; }
-  
-  .logo-otros-servicios { grid-area: logo-otros-servicios; } */
+.administracion {
+    grid-area: administracion;
+}
+
+.tasaciones {
+    grid-area: tasaciones;
+}
+
+.logo-otros-servicios {
+    grid-area: logo-otros-servicios;
+}
 
 
 .main-otros-servicios h2 {
