@@ -181,47 +181,40 @@
 
 /* 3- otros-servicios.html - se usó grid*/
 
-.otros-servicios {
-    display: grid;
+.grilla-otros-servicios {  display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-rows: 1fr;
+    grid-template-rows: 1.6fr 0.4fr;
     gap: 30px 30px;
     grid-auto-flow: row;
-    background-color: white;
-
-}
-
-.administracion {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.tasaciones {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.imagen {
-    grid-area: 2 / 1 / 3 / 3;
-    background-color: #a09c4d;
-}
-
-
+    grid-template-areas:
+      "administracion tasaciones"
+      "logo-otros-servicios logo-otros-servicios";
+      background-color: white;
+  }
+  
+  .administracion { grid-area: administracion; }
+  
+  .tasaciones { grid-area: tasaciones; }
+  
+  .logo-otros-servicios { grid-area: logo-otros-servicios; }
+  
 
 .main-otros-servicios h2 {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline black;
     background-color: #a09c4d;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
+    padding: 30px;
 }
 
 .main-otros-servicios p {
-    margin: 20px;
+    margin: 22px;
     padding: 20px;
     background-color: #a09c4d;
     font-family: 'Josefin Sans', sans-serif;
     border: solid 1px black;
-    height: 310px;
+    height: 250px;
     overflow: auto;
     align-items: center;
 }
